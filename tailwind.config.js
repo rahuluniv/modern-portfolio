@@ -21,6 +21,10 @@ module.exports = {
       xl: "1200px",
     },
     extend: {
+      zIndex: {
+        '50': '50',
+        '100': '100',
+      },
       colors: {
         primary: "#131424",
         secondary: "#393A47",
