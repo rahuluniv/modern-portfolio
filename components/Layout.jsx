@@ -37,7 +37,9 @@ const Layout = ({ children }) => {
       <Header />
 
       {/* main content */}
-      {children}
+      <div className="overflow-auto h-full">
+        {children}
+      </div>
     </main>
   );
 };
